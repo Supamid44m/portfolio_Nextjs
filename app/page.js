@@ -4,10 +4,10 @@ import Image from "next/image"
 const Page = () =>{
     return(
         <Layout>
-            <p className="text-3xl hover:underline">
+            <p className="text-3xl hover:underline font-caveat">
                 Welcome to  Supamid 
             </p>
-            <Image src='image/avatarimage.png'  width={200} height={200} /> 
+            <Image src='/image/avatarimage.png'  width={200} height={200} /> 
         </Layout>
     )
 }
